@@ -1,0 +1,99 @@
+body{
+    background-color: #d0d0d0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, p{
+text-align: center;
+}
+h1{
+    color: #c14444;
+}
+i{
+    padding: 20px;
+    font-size: 50px;
+    
+}
+.gridcontainer{
+    display: grid;
+    grid-row-gap: 50px;;
+    border: 1px solid #000000;
+    grid-template-columns: 20% auto 20%;
+    grid-template-rows: auto;
+    
+}
+
+.profilephoto{
+    border-radius: 50%;
+    border: 10px solid #808080;
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    
+    
+   
+}
+
+.headercontent{
+    grid-column: 2/2;
+    grid-row: 1/1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.button {
+    background-color: #c14444; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 5px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    width:30%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+}
+
+.socialcontent{
+    grid-column: 2/2;
+    grid-row: 2/2;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+
+}
+
+.socialcolumn{
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+     margin: 20px;
+}
+
+.socialcontent p{
+margin-top: 0;
+}
+.moviecontent{
+    grid-column: 2/2;
+    grid-row: 3/3;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+.moviecolumn{
+    display: flex;
+    flex-direction: column;
+}
+.movierow{
+    display: flex;
+    flex-direction: row;
+}
