@@ -92,8 +92,11 @@ margin-top: 0;
 .moviecolumn{
     display: flex;
     flex-direction: column;
+    margin: 20px;
 }
 .movierow{
     display: flex;
     flex-direction: row;
+    margin-bottom: 50px;
+
 }
