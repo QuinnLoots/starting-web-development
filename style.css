@@ -80,6 +80,18 @@ i{
      margin: 20px;
 }
 
+.testlist{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    float: left;
+}
+
+.horizontal-list{
+    display: inline;
+    float: left;
+}
 .socialcolumn p{
     color: #c3c3c3;
 }
