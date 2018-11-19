@@ -87,8 +87,12 @@ i{
     display: inline;
     float: left;
 }
-
+li{
+    list-style-type: none;
+  
+}
 .horizontal-list{
+    list-style-type: none;
     display: inline;
     float: left;
 }
@@ -106,6 +110,7 @@ margin-top: 0;
     flex-direction: column;
 }
 .moviecolumn{
+    list-style-type: none;
     display: flex;
     flex-direction: column;
     margin: 20px;
@@ -115,4 +120,9 @@ margin-top: 0;
     flex-direction: row;
     margin-bottom: 50px;
 
+}
+
+.moviedescription{
+      margin-left: 40%;
+      margin-right: 10%
 }
